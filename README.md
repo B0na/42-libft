@@ -5,6 +5,11 @@
 </div>
 
 <h1 align="center"> Libft </h1>
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1>
+<p align="center">🚀 This project aims to code a C library regrouping usual functions that we will use in the next projects of the course.</p>
+
 
 
 <h2 align="center">
