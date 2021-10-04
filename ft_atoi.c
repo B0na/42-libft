@@ -6,7 +6,7 @@
 /*   By: ebonamic <ebonamic@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 15:57:17 by ebonamic          #+#    #+#             */
-/*   Updated: 2021/09/17 16:07:44 by ebonamic         ###   ########.fr       */
+/*   Updated: 2021/10/04 12:56:40 by ebonamic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,6 @@ static int	ft_isspace(int c)
 		|| c == '\f' || c == '\v')
 		return (1);
 	return (0);
-}
-
-int	ft_isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
 }
 
 int	ft_atoi(const char *nptr)
