@@ -6,7 +6,7 @@
 
 <h1 align="center"> Libft </h1>
 <h1 align="center">
-<p align="center">Escrever uma breve descrição</p>
+<p align="center">This project aims to code a C library regrouping usual functions that we will use in the next projects of the course.</p>
 
 
 
