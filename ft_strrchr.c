@@ -6,7 +6,7 @@
 /*   By: ebonamic <ebonamic@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 20:17:41 by ebonamic          #+#    #+#             */
-/*   Updated: 2021/09/14 21:32:04 by ebonamic         ###   ########.fr       */
+/*   Updated: 2021/10/07 20:20:13 by ebonamic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,16 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	const char	*str_end;
-	size_t		i;
-	size_t		j;
+	int	i;
 
-	if (c > 127)
-		c %= 256;
-	str_end = str;
-	i = 0;
-	j = 0;
-	while (str_end[i] != '\0')
-		i++;
-	while (str_end[i] != str[j])
+	i = (int) ft_strlen(str);
+	while (i >= 0)
 	{
-		if (str_end[i] == c)
-			return ((char *)str_end + i);
+		if (str[i] == (unsigned char) c)
+		{
+			return ((char *)str + i);
+		}
 		i--;
 	}
-	if (str_end[i] == c)
-		return ((char *)str_end + i);
-	return (0);
+	return (NULL);
 }
