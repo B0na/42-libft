@@ -23,7 +23,7 @@
 
 ### Functions from `<ctype.h>`
 
-- [`ft_isalpha`](srcs/ft_isalpha.c)	- checks for an alphabetic character.
+- [`ft_isalpha`](ft_isalpha.c)	- checks for an alphabetic character.
 - [`ft_isdigit`](srcs/ft_isdigit.c)	- check for a digit (0 through 9).
 - [`ft_isalnum`](srcs/ft_isalnum.c)	- checks for an alphanumeric character.
 - [`ft_isascii`](srcs/ft_isascii.c)	- checks whether c fits into the ASCII character set.
