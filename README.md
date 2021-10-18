@@ -17,10 +17,6 @@
 <p align="center">
   	<a href="https://www.linkedin.com/in/eduardo-bonamico-viana-2b23b721b/">
     	<img alt="Linkedin" src="https://img.shields.io/badge/Eduardo Bonamico Viana-blue?style=flat&logo=Linkedin&logoColor=white" />
-  	</a>
-    <img src="https://img.shields.io/github/last-commit/LucasDatilioCarderelli/00-Libft?color=blue">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/LucasDatilioCarderelli/00-Libft?color=blue" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/LucasDatilioCarderelli/00-Libft?color=blue" />
 </p>
 
 ## List of Functions
