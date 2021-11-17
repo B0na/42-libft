@@ -11,7 +11,7 @@
 
 
 <h2 align="center">
-	Project develop for <a href="https://github.com/LucasDatilioCarderelli/42Cursus"> 42Cursus </a>
+	Project develop for 42Cursus </a>
 </h2>
 
 <p align="center">
